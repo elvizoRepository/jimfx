@@ -17,7 +17,7 @@ export default function page() {
         </div>
         <p className='option-des PaddingSides'>
         <span className='highlight'>Fixed Income Strategy:</span> Jim Fx Capitals develops fixed income strategies that 
-        align with our clients' risk profiles and income objectives. This may include a mix of government 
+        align with our clients&apos; risk profiles and income objectives. This may include a mix of government 
         bonds, corporate bonds, and other fixed-income securities.
         </p>
         <p className='option-des PaddingSides'>
