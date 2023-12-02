@@ -37,3 +37,12 @@
     opacity: 0.7;
     margin-top: 1rem;
 }
+@media (max-width:375px) {
+    .ceo-image{
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+        border-radius: 4px;
+    
+    }
+}
