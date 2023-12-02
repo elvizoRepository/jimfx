@@ -1,14 +1,14 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import ServicesNocta from '../../components/ServicesNocta'
 import './messages.css'
 
 
 export default function page() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [phone, setPhone] = React.useState('');
+  const [message, setMessage] = React.useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
