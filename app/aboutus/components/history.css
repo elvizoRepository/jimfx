@@ -1,0 +1,39 @@
+.small-heading{
+    color: #0124B7;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.history-desc{
+    opacity: 0.5;
+}
+.history{
+    padding:4rem;
+    text-align: justify;
+}
+.ceo-image{
+    height: 333px;
+    width: 320px;
+    overflow: hidden;
+    border-radius: 4px;
+
+}
+.ceo-image img{
+    width: 100%;
+}
+.ceo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.ceo p{
+    color: #0124B7;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.ceo h2{
+    opacity: 0.7;
+    margin-top: 1rem;
+}

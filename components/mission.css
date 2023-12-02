@@ -1,0 +1,32 @@
+.mission{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #0124B7;
+    margin: 0;
+    color: #F9F9F9;
+    height: 200px;
+}
+.vision{
+    width: 40%;
+
+}
+.mission h1{
+    font-size: 2.8rem;
+
+}
+@media (max-width: 768px) {
+    .mission{
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .mission h1{
+        font-size: 2rem;
+    }.vision{
+       text-align: center;
+       width: 100%;
+       font-size: 1rem;
+    }
+
+}

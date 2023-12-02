@@ -1,0 +1,103 @@
+.services-small-heading{
+    color: #0124B7;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+.services-big-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.ourServices{
+    font-size: 2.8rem;
+    opacity: 0.7;
+}
+.ourSevices-des{
+    width: 40%;
+    opacity: 0.7;
+}
+.service-options{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.service-container{
+    border-radius: 10px;
+    border: 1px solid rgba(59, 59, 59, 0.103);
+    background: #FFF;
+    padding: 1rem;
+    width: 380px;
+    position: relative;
+    transition: box-shadow 0.3s; /* Add a smooth transition effect */
+    transition: background-color 0.3s; 
+}
+.service-image{
+    max-height: 180px;
+    overflow: hidden;
+
+}
+.service-image img{
+    width: 100%;
+}
+.service-title{
+    font-weight: 600;
+    background-color: #0124B7;
+    color: #FFF;
+    padding: 0.8rem 0.5rem;
+    margin-top: 0.2rem;
+}
+.services-option-description{
+    opacity: 0.7;
+    margin-top: 0.5rem;
+}
+.learnmore{
+    border: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Add a smooth transition effect */
+    cursor: pointer;
+}
+.service-container:hover .learnmore {
+    opacity: 1; /* Make the button visible on hover */
+  }
+
+
+.service-container:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Darker shadow on hover */
+    
+}
+@media (max-width: 768px) {
+    .services-big-heading{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .ourSevices-des{
+        width: 100%;
+    }
+    .service-options{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ourServices{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .service-container{
+
+        width: 270px;
+
+    }
+}
